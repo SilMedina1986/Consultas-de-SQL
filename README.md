@@ -1,13 +1,13 @@
 # Consultas-de-SQL
-Proyecto: DataProject: Lógica. Consultas de SQL
+## Proyecto: DataProject: Lógica. Consultas de SQL
 
 Análisis y Consultas de Base de Datos - Proyecto de Alquiler de Películas
 Este proyecto se enfoca en realizar consultas y análisis de una base de datos de alquiler de películas, utilizando un esquema relacional. A continuación, se describen los pasos realizados durante el desarrollo del proyecto, las consultas ejecutadas, y un análisis de los resultados obtenidos.
 
-1. Descripción del Proyecto
+### 1. Descripción del Proyecto
 El objetivo del proyecto fue analizar una base de datos de un sistema de alquiler de películas. Este sistema contiene información sobre clientes, empleados, películas, categorías, tiendas, y transacciones de alquiler. Utilizando SQL, se desarrollaron consultas para extraer información valiosa, optimizar el entendimiento del negocio y generar reportes útiles.
 ________________________________________
-2. Esquema de la Base de Datos
+### 2. Esquema de la Base de Datos
 El esquema relacional incluye las siguientes tablas principales:
 •	Clientes (customer): Información de los clientes.
 •	Películas (film): Detalles de las películas disponibles.
@@ -18,18 +18,24 @@ El esquema relacional incluye las siguientes tablas principales:
 •	Empleados (staff): Detalles de los trabajadores.
 El esquema muestra las relaciones entre estas tablas, las claves primarias y foráneas, así como los campos relevantes.
 ________________________________________
-3. Pasos Seguidos
-Paso 1: Análisis del Esquema
+### 3. Pasos Seguidos
+
+* Paso 1: Análisis del Esquema
 •	Analizamos las tablas y sus relaciones para entender cómo conectar la información necesaria.
 •	Identificamos las claves primarias y foráneas para realizar consultas correctamente.
-Paso 2: Definición de Preguntas de Negocio
+* Paso 2: Definición de Preguntas de Negocio
 •	Planteamos preguntas clave que el análisis debía responder, como:
 o	¿Qué categorías tienen más películas alquiladas?
 o	¿Qué clientes son los más activos?
 o	¿Cuántas películas se alquilaron en un año específico?
 o	¿Cómo se relacionan los empleados con las tiendas?
-Paso 3: Desarrollo de Consultas
-Se diseñaron y ejecutaron consultas SQL para responder a las preguntas planteadas. Aquí se detallan algunas de las consultas implementadas:
+* Paso 3: Desarrollo de Consultas
+Se diseñaron y ejecutaron consultas SQL para responder a las preguntas planteadas. 
+
+
+Aquí se detallan algunas de las consultas implementadas:
+
+
 •	15. ¿Cuánto dinero ha generado en total la empresa?
 
 SELECT sum("amount") AS "ganancias totales"
@@ -90,8 +96,8 @@ ORDER BY
 
 
 ________________________________________
-4. Resultados y Análisis
-Hallazgos clave:
+### 4. Resultados y Análisis
+ Hallazgos clave:
 1.	Clientes más activos:
 o	Identificamos los clientes que alquilan películas de manera constante. Esto puede ayudar a desarrollar programas de fidelización.
 2.	Categorías más populares:
@@ -101,8 +107,13 @@ o	La combinación de trabajadores y tiendas permitió analizar cómo distribuir 
 Análisis:
 El proyecto permitió extraer insights valiosos utilizando SQL y un diseño relacional bien estructurado. Además, se demostró cómo los datos pueden integrarse y cruzarse para responder preguntas complejas de negocio.
 ________________________________________
-5. Conclusiones
-•	Flexibilidad del modelo relacional: El esquema permitió realizar múltiples tipos de análisis gracias a las relaciones definidas entre las tablas.
-•	Utilidad de SQL: Con las consultas, se extrajo información detallada y se generaron reportes relevantes para la toma de decisiones.
-•	Recomendaciones futuras: Optimizar las consultas más complejas e implementar índices para mejorar el rendimiento en bases de datos grandes.
-•	
+### 5. Conclusiones
+
+* Flexibilidad del modelo relacional: El esquema permitió realizar múltiples tipos de análisis gracias a las relaciones definidas entre las tablas.
+
+* Utilidad de SQL: Con las consultas, se extrajo información detallada y se generaron reportes relevantes para la toma de decisiones.
+ 
+* Recomendaciones futuras: Optimizar las consultas más complejas e implementar índices para mejorar el rendimiento en bases de datos grandes.
+
+### 6. Autor: 
+Silvina Medina -- https://github.com/SilMedina1986  
